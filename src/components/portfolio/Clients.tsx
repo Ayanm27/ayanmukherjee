@@ -32,8 +32,7 @@ const Logo = ({ brand }: { brand: Brand }) => (
       src={brand.src}
       alt={brand.name}
       loading="lazy"
-      className="max-h-16 max-w-full w-auto h-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-500"
-      style={{ filter: "brightness(0) invert(1)" }}
+      className="max-h-16 max-w-full w-auto h-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-500"
     />
   </div>
 );
