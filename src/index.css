@@ -59,7 +59,7 @@
     --shadow-glow-gold: 0 0 40px hsl(38 92% 50% / 0.25);
     --shadow-card: 0 20px 50px -20px hsl(0 0% 0% / 0.6);
 
-    --gradient-photo-mask: linear-gradient(to right, transparent 0%, transparent 8%, black 55%, black 100%);
+    --gradient-photo-mask: linear-gradient(to right, transparent 0%, transparent 15%, rgba(0,0,0,0.4) 35%, black 65%, black 100%);
     --gradient-radial-blue: radial-gradient(circle at center, hsl(217 91% 60% / 0.15) 0%, transparent 60%);
     --gradient-radial-gold: radial-gradient(circle at center, hsl(38 92% 50% / 0.18) 0%, transparent 60%);
 
