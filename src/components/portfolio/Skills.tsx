@@ -19,7 +19,7 @@ const groups = [
   },
 ];
 
-// Initial-based icon — clean, on-brand. Color-coded subtly per group.
+// Initial-based icon, clean, on-brand. Color-coded subtly per group.
 const ToolIcon = ({ name }: { name: string }) => {
   const initials = name
     .split(" ")

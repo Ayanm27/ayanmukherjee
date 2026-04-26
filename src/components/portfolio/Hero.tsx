@@ -14,7 +14,7 @@ export const Hero = () => {
     <section id="top" className="relative min-h-screen w-full overflow-hidden pt-28 lg:pt-32">
       <AnimatedPaths />
 
-      {/* Photo — RIGHT side, behind text on desktop */}
+      {/* Photo, RIGHT side, behind text on desktop */}
       <div className="absolute inset-y-0 right-0 hidden lg:block w-[55%] pointer-events-none">
         <motion.div
           initial={{ opacity: 0, scale: 1.05 }}

@@ -16,7 +16,7 @@ import { CustomCursor } from "@/components/portfolio/CustomCursor";
 const Index = () => {
   useEffect(() => {
     document.documentElement.classList.add("dark");
-    document.title = "Ayan Mukherjee — Creative Director, Strategist & Operations";
+    document.title = "Ayan Mukherjee, Creative Director, Strategist & Operations";
 
     const setMeta = (name: string, content: string) => {
       let el = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement | null;
@@ -29,7 +29,7 @@ const Index = () => {
     };
     setMeta(
       "description",
-      "Ayan Mukherjee — Creative Director, Content Strategist & Operations Professional based in Pune, India. 13+ years, 200+ clients, 2 national media awards."
+      "Ayan Mukherjee, Creative Director, Content Strategist & Operations Professional based in Pune, India. 13+ years, 200+ clients, 2 national media awards."
     );
 
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
