@@ -32,7 +32,7 @@ export const MatineeMan = () => (
           <a
             href="https://www.youtube.com/@MatineeManOfficial"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-3 rounded-full px-7 py-3.5 text-sm font-medium text-foreground transition-all duration-300 hover:scale-105"
             style={{ backgroundColor: "hsl(var(--youtube))" }}
           >
@@ -46,7 +46,7 @@ export const MatineeMan = () => (
         <a
           href="https://www.youtube.com/@MatineeManOfficial"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="block relative aspect-video rounded-2xl overflow-hidden border border-border bg-[#0E0E0E] group cursor-hover"
         >
           {/* Channel screenshot */}

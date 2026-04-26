@@ -118,9 +118,9 @@ export const Hero = () => {
             className="mt-10 flex flex-wrap gap-4"
           >
             <a
-              href="https://drive.google.com/drive/u/2/folders/19JdujWOwtUArQPKw6POAH5xKnr8ScKOL"
+              href="https://drive.google.com/file/d/1LT7FiVFWqRbIM19_y5fguPjVEsglVOyc/view?usp=sharing"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn-liquid-filled inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground"
             >
               See My Work <span aria-hidden>↗</span>
