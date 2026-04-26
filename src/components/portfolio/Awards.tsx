@@ -2,7 +2,7 @@ import { Reveal } from "./Reveal";
 import { Trophy } from "lucide-react";
 
 const awards = [
-  { title: "e4m Awards 2024", category: "Best Sports Video of the Year", project: "WPL 2024 Campaign — Women's CricZone", source: "Exchange4Media | National Recognition" },
+  { title: "e4m Awards 2024", category: "Best Sports Video of the Year", project: "WPL 2024 Campaign, Women's CricZone", source: "Exchange4Media | National Recognition" },
   { title: "e4m Awards 2024", category: "Best Sports Series or Channel", project: "Women's CricZone", source: "Exchange4Media | National Recognition" },
 ];
 

@@ -4,31 +4,31 @@ import { Reveal } from "./Reveal";
 
 const entries = [
   {
-    date: "2025 — Present",
+    date: "2025 – Present",
     title: "Founder",
     company: "After Mark",
     body: "My personal creative studio. Serving individuals, startups, and organisations with end-to-end creative and strategic solutions. One director. Your brand. Full ownership.",
   },
   {
-    date: "2025 — Present",
+    date: "2025 – Present",
     title: "Brand & Marketing Consultant",
     company: "Ferrstron Powertrains",
-    body: "Building the brand identity, content strategy, and marketing plan for a Pune-based Axial Flux EV motor startup — from scratch.",
+    body: "Building the brand identity, content strategy, and marketing plan for a Pune-based Axial Flux EV motor startup, from scratch.",
   },
   {
-    date: "2025 — Present",
+    date: "2025 – Present",
     title: "Operations Associate",
     company: "Globalscope Partners",
-    body: "Supporting one of the world's largest international M&A banking networks. Managing presentations, data accuracy, website backend, member coordination, and global conference materials — across 57 member firms worldwide.",
+    body: "Supporting one of the world's largest international M&A banking networks. Managing presentations, data accuracy, website backend, member coordination, and global conference materials, across 57 member firms worldwide.",
   },
   {
-    date: "2019 — 2025",
+    date: "2019 – 2025",
     title: "Co-Founder & Chief Operating Officer",
     company: "Women's CricZone",
-    body: "Built India's leading women's cricket media platform from the ground up. Led all company operations — HR, hiring, workflows, and production pipelines. Grew the brand from 0 to 800,000+ followers across platforms.",
+    body: "Built India's leading women's cricket media platform from the ground up. Led all company operations, HR, hiring, workflows, and production pipelines. Grew the brand from 0 to 800,000+ followers across platforms.",
   },
   {
-    date: "2012 — 2019",
+    date: "2012 – 2019",
     title: "Freelancer",
     company: "Video Editor & Graphic Designer",
     body: "Started from zero. Built a client base of 200+ across industries. Mastered the craft of editing, design, and delivering under pressure. Every client was a lesson. Every deadline was a standard.",

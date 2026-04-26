@@ -3,8 +3,8 @@ import { MapPin, GraduationCap, Building2, Clapperboard } from "lucide-react";
 
 const facts = [
   { icon: MapPin, text: "Pune, India" },
-  { icon: GraduationCap, text: "Diploma in Filmmaking, Animation & VFX — Arena Animation (2017–18)" },
-  { icon: GraduationCap, text: "B.Com — Kolhan University (2015)" },
+  { icon: GraduationCap, text: "Diploma in Filmmaking, Animation & VFX, Arena Animation (2017–18)" },
+  { icon: GraduationCap, text: "B.Com, Kolhan University (2015)" },
   { icon: Building2, text: "Currently: Operations Associate, Globalscope Partners" },
   { icon: Building2, text: "Currently: Brand Consultant, Ferrstron Powertrains" },
   { icon: Clapperboard, text: "Independent Ventures: Matinee Man & After Mark" },
@@ -26,9 +26,9 @@ export const About = () => (
           <div className="mt-10 space-y-6 text-text-secondary text-[17px] leading-[1.8] max-w-xl">
             <p>I started with a laptop, a DSLR, and a stubborn need to figure things out on my own.</p>
             <p>No agency training. No corporate hand-holding. Just 200+ clients, real deadlines, and a commitment to delivering work that actually moves the needle.</p>
-            <p>Over 13 years, I've worn a lot of hats — and I wear all of them well.</p>
+            <p>Over 13 years, I've worn a lot of hats, and I wear all of them well.</p>
             <p>As a <span className="text-foreground">Creative Director</span>, I've built brand identities, led content teams, directed campaigns, and shaped the visual and narrative language of organisations across industries.</p>
-            <p>As an <span className="text-foreground">Operations professional</span>, I've co-founded and run a media company, managed HR and hiring, built internal workflows, handled data, coordinated across global teams, and kept organisations running with precision — behind the scenes.</p>
+            <p>As an <span className="text-foreground">Operations professional</span>, I've co-founded and run a media company, managed HR and hiring, built internal workflows, handled data, coordinated across global teams, and kept organisations running with precision, behind the scenes.</p>
             <p className="text-foreground">I don't just think in concepts. I think in systems. And I build both.</p>
           </div>
         </Reveal>

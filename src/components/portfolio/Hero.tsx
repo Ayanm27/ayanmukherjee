@@ -14,7 +14,7 @@ export const Hero = () => {
     <section id="top" className="relative min-h-screen w-full overflow-hidden pt-28 lg:pt-32">
       <AnimatedPaths />
 
-      {/* Photo — RIGHT side, behind text on desktop */}
+      {/* Photo, RIGHT side, behind text on desktop */}
       <div className="absolute inset-y-0 right-0 hidden lg:block w-[55%] pointer-events-none">
         <motion.div
           initial={{ opacity: 0, scale: 1.05 }}
@@ -104,7 +104,7 @@ export const Hero = () => {
             transition={{ duration: 0.7, delay: 1.4 }}
             className="mt-6 text-base text-text-muted max-w-xl leading-relaxed"
           >
-            I'm Ayan Mukherjee — Creative Director, Content Strategist, and Operations
+            I'm Ayan Mukherjee, a Creative Director, Content Strategist, and Operations
             professional based in Pune, India. I've built brands from zero. Grown media
             companies to 800K+ followers. Managed global operations for an international
             investment banking network. And I bring the same discipline to every room I
@@ -118,10 +118,12 @@ export const Hero = () => {
             className="mt-10 flex flex-wrap gap-4"
           >
             <a
-              href="#clients"
+              href="https://drive.google.com/drive/u/2/folders/19JdujWOwtUArQPKw6POAH5xKnr8ScKOL"
+              target="_blank"
+              rel="noreferrer"
               className="btn-liquid-filled inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground"
             >
-              See My Work <span aria-hidden>↓</span>
+              See My Work <span aria-hidden>↗</span>
             </a>
             <a
               href="#contact"

@@ -28,7 +28,7 @@ export const Footer = () => (
       </div>
 
       <div className="mt-12 pt-6 border-t border-border text-center text-xs text-[hsl(217_19%_27%)]">
-        © 2025 Ayan Mukherjee. All rights reserved.
+        © 2026 Ayan Mukherjee. All rights reserved.
       </div>
     </div>
   </footer>

@@ -23,7 +23,7 @@ export const Contact = () => (
       </Reveal>
       <Reveal delay={0.2}>
         <p className="mt-8 text-text-secondary max-w-2xl mx-auto text-lg">
-          Whether you need a creative partner, an operations associate, a brand consultant, or someone who can do all three — I'm open to the conversation.
+          Whether you need a creative partner, an operations associate, a brand consultant, or someone who can do all three, I'm open to the conversation.
         </p>
       </Reveal>
 
