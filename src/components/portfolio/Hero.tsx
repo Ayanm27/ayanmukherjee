@@ -1,6 +1,6 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect } from "react";
-import portrait from "@/assets/ayan-portrait-cinematic.jpeg";
+import portrait from "@/assets/ayan-portrait-cinematic-v2.jpg";
 import { AnimatedPaths } from "./AnimatedPaths";
 
 const headlineLines = [
@@ -169,7 +169,7 @@ export const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 1.9 }}
-            className="mt-14 border-t border-border pt-6 grid grid-cols-2 sm:grid-cols-4 gap-6"
+            className="mt-14 border-t border-border pt-8 grid grid-cols-2 sm:grid-cols-4 gap-8"
           >
             {[
               ["13+", "Years"],
@@ -178,8 +178,8 @@ export const Hero = () => {
               ["2", "National Awards"],
             ].map(([n, l]) => (
               <div key={l} className="group">
-                <div className="font-display text-2xl font-semibold text-gradient-vibrant">{n}</div>
-                <div className="text-xs uppercase tracking-wider text-text-muted mt-1">{l}</div>
+                <div className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold text-gradient-vibrant leading-none">{n}</div>
+                <div className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-text-muted mt-3">{l}</div>
               </div>
             ))}
           </motion.div>
