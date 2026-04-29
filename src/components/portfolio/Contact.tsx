@@ -47,9 +47,10 @@ export const Contact = () => (
       <Reveal delay={0.4}>
         <a
           href="mailto:mr.mukherjee27@gmail.com"
-          className="btn-liquid-filled mt-16 inline-flex items-center gap-3 rounded-full bg-primary px-10 py-5 text-base font-medium text-primary-foreground shadow-glow-blue"
+          className="btn-liquid-filled group mt-16 inline-flex items-center gap-3 rounded-full px-10 py-5 text-base font-semibold text-primary-foreground"
         >
-          Start a Conversation <span aria-hidden>→</span>
+          Start a Conversation
+          <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1.5">→</span>
         </a>
       </Reveal>
     </div>
