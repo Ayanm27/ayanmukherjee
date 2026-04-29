@@ -27,7 +27,7 @@ export const Stats = () => (
           <Reveal key={i} delay={i * 0.06} className="bg-surface">
             <div className="relative p-8 lg:p-10 h-full">
               <span className="absolute top-0 left-0 h-px w-16 bg-primary" />
-              <div className="font-display text-5xl lg:text-6xl font-semibold text-foreground">
+              <div className="font-display text-5xl lg:text-6xl font-semibold text-gradient-vibrant">
                 {Number.isInteger(s.value) ? (
                   <CountUp end={s.value} suffix={s.suffix} />
                 ) : (
