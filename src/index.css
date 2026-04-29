@@ -26,7 +26,9 @@
 
     --primary: 217 91% 60%;           /* electric blue #3B82F6 */
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 217 91% 65%;
+    --primary-glow: 200 98% 65%;      /* cyan glow */
+    --magenta: 290 90% 60%;
+    --teal: 174 80% 45%;
 
     --secondary: 0 0% 11%;
     --secondary-foreground: 0 0% 100%;
@@ -55,13 +57,18 @@
     --radius: 0.75rem;
 
     /* Gradients & shadows */
-    --shadow-glow-blue: 0 0 40px hsl(217 91% 60% / 0.35);
-    --shadow-glow-gold: 0 0 40px hsl(38 92% 50% / 0.25);
+    --shadow-glow-blue: 0 0 60px hsl(217 91% 60% / 0.5), 0 0 120px hsl(200 98% 65% / 0.25);
+    --shadow-glow-gold: 0 0 40px hsl(38 92% 50% / 0.35);
+    --shadow-glow-magenta: 0 0 60px hsl(290 90% 60% / 0.4);
     --shadow-card: 0 20px 50px -20px hsl(0 0% 0% / 0.6);
 
-    --gradient-photo-mask: linear-gradient(to right, transparent 0%, transparent 15%, rgba(0,0,0,0.4) 35%, black 65%, black 100%);
+    --gradient-photo-mask: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 18%, rgba(0,0,0,0.2) 38%, black 100%);
     --gradient-radial-blue: radial-gradient(circle at center, hsl(217 91% 60% / 0.15) 0%, transparent 60%);
     --gradient-radial-gold: radial-gradient(circle at center, hsl(38 92% 50% / 0.18) 0%, transparent 60%);
+    --gradient-vibrant: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(290 90% 60%) 50%, hsl(38 92% 55%) 100%);
+    --gradient-cyber: linear-gradient(135deg, hsl(174 80% 45%) 0%, hsl(217 91% 60%) 60%, hsl(290 90% 60%) 100%);
+    --gradient-text-shimmer: linear-gradient(110deg, hsl(0 0% 100%) 30%, hsl(217 91% 75%) 45%, hsl(290 90% 75%) 55%, hsl(0 0% 100%) 70%);
+    --gradient-mesh-1: radial-gradient(at 20% 30%, hsl(217 91% 60% / 0.35) 0px, transparent 50%), radial-gradient(at 80% 20%, hsl(290 90% 60% / 0.25) 0px, transparent 50%), radial-gradient(at 60% 80%, hsl(174 80% 45% / 0.25) 0px, transparent 50%);
 
     --transition-smooth: cubic-bezier(0.65, 0, 0.35, 1);
     --transition-liquid: cubic-bezier(0.86, 0, 0.07, 1);
