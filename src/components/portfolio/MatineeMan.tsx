@@ -33,11 +33,16 @@ export const MatineeMan = () => (
             href="https://www.youtube.com/@MatineeManOfficial"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-10 inline-flex items-center gap-3 rounded-full px-7 py-3.5 text-sm font-medium text-foreground transition-all duration-300 hover:scale-105"
-            style={{ backgroundColor: "hsl(var(--youtube))" }}
+            className="group mt-10 inline-flex items-center gap-3 rounded-full px-7 py-3.5 text-sm font-semibold text-foreground transition-all duration-500 hover:-translate-y-1 relative overflow-hidden"
+            style={{
+              backgroundColor: "hsl(var(--youtube))",
+              boxShadow: "0 10px 40px -8px hsl(var(--youtube) / 0.7), inset 0 1px 0 0 hsl(0 0% 100% / 0.25)",
+            }}
           >
-            <Play className="h-4 w-4 fill-current" />
-            Watch on YouTube →
+            <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700" style={{ background: "linear-gradient(110deg, transparent, hsl(0 0% 100% / 0.35), transparent)" }} />
+            <Play className="h-4 w-4 fill-current relative" />
+            <span className="relative">Watch on YouTube</span>
+            <span aria-hidden className="relative inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
           </a>
         </Reveal>
       </div>
