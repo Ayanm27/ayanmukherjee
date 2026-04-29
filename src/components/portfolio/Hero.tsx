@@ -1,6 +1,6 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect } from "react";
-import portrait from "@/assets/ayan-portrait-cinematic-v2.jpg";
+import portrait from "@/assets/ayan-portrait-bw.jpg";
 import { AnimatedPaths } from "./AnimatedPaths";
 
 const headlineLines = [
@@ -58,8 +58,7 @@ export const Hero = () => {
               backgroundPosition: "center 18%",
             }}
           />
-          {/* Cinematic teal-orange grade tint */}
-          <div className="absolute inset-0 photo-mask mix-blend-color" style={{ background: "linear-gradient(110deg, hsl(217 91% 50% / 0.25), transparent 50%, hsl(38 92% 55% / 0.18))" }} />
+          {/* B&W — no color grade overlay */}
           {/* Edge fades */}
           <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background/30" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
@@ -91,7 +90,6 @@ export const Hero = () => {
               alt="Ayan Mukherjee"
               className="absolute inset-0 h-full w-full object-cover object-[center_15%]"
             />
-            <div className="absolute inset-0 mix-blend-color" style={{ background: "linear-gradient(110deg, hsl(217 91% 50% / 0.25), transparent 50%, hsl(38 92% 55% / 0.18))" }} />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
           </div>
         </div>
@@ -178,7 +176,7 @@ export const Hero = () => {
               ["2", "National Awards"],
             ].map(([n, l]) => (
               <div key={l} className="group">
-                <div className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold text-gradient-vibrant leading-none">{n}</div>
+                <div className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-gradient-vibrant leading-none whitespace-nowrap pr-1">{n}</div>
                 <div className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-text-muted mt-3">{l}</div>
               </div>
             ))}
