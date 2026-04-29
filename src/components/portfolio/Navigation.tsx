@@ -30,7 +30,7 @@ export const Navigation = () => {
         }`}
       >
         <nav className="container mx-auto flex items-center justify-between py-5">
-          <a href="#top" className="font-display text-lg font-medium tracking-tight text-foreground">
+          <a href="#top" className="font-display text-lg font-medium tracking-tight text-foreground px-0 mx-0">
             Ayan Mukherjee
           </a>
 
@@ -39,7 +39,7 @@ export const Navigation = () => {
               <li key={l.href}>
                 <a
                   href={l.href}
-                  className="text-sm text-text-secondary hover:text-foreground transition-colors duration-300 relative group"
+                  className="text-text-secondary hover:text-foreground transition-colors duration-300 relative group text-base font-normal"
                 >
                   {l.label}
                   <span className="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full" />
