@@ -22,6 +22,7 @@ const groups: { title: string; accent: string; tools: Tool[] }[] = [
       { name: "Premiere Pro", slug: "adobepremierepro", color: "9999FF" },
       { name: "After Effects", slug: "adobeaftereffects", color: "9999FF" },
       { name: "DaVinci Resolve", slug: "davinciresolve", color: "FFFFFF" },
+      { name: "Filmora", slug: "wondersharefilmora", color: "30D2FE" },
     ],
   },
   {

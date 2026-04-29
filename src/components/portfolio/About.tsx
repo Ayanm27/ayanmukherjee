@@ -3,11 +3,11 @@ import { MapPin, GraduationCap, Building2, Clapperboard } from "lucide-react";
 
 const facts = [
   { icon: MapPin, text: "Pune, India" },
-  { icon: GraduationCap, text: "Diploma in Filmmaking, Animation & VFX, Arena Animation (2017–18)" },
-  { icon: GraduationCap, text: "B.Com, Kolhan University (2015)" },
   { icon: Building2, text: "Currently: Operations Associate, Globalscope Partners" },
   { icon: Building2, text: "Currently: Brand Consultant, Ferrstron Powertrains" },
   { icon: Clapperboard, text: "Independent Ventures: Matinee Man & After Mark" },
+  { icon: GraduationCap, text: "Diploma in Filmmaking, Animation & VFX, Arena Animation (2017–18)" },
+  { icon: GraduationCap, text: "B.Com, Kolhan University (2016)" },
 ];
 
 export const About = () => (
